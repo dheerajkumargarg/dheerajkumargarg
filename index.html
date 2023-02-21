@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous">
+  </script>
+<script>
+  function KnowMore()
+  {
+    var msg = "call on this number for more details.\n" + " Dheeraj Kumar Garg - 8630885960";
+    alert(msg);
+  }
+</script>
+  <!--google font-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!--fontaswome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <title>Saraswati Coaching Institute</title>
+  <style>
+    body {
+    font-family: 'poppinse', sans-serif;
+}
+
+a{
+    direction: none;
+}
+.section-heading{
+    color: var(--bs-orange)
+}
+
+/********************
+    header
+/********************/
+@media(max-width:768px)
+ {
+.header-socil-icon{
+    display: none;
+}
+} 
+/********************
+    navbar
+/********************/
+nav {
+    background: #fff;
+    box-shadow: 1px 1px 2px #4444;
+}
+
+nav .navbar-brand {
+    color: var(--bs-orange)!important;
+}
+.navbar-nav .nav-link{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-toggler{
+    outline: none;
+    padding: none;
+}
+
+/****************
+carousel
+****************/
+.carousel-inner .carousel-item{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.carousel-inner .carousel-item::before{
+    content: '';
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.carousel-inner .carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 37%;
+    left: 0;
+    right: 0;
+}
+.carousel-inner .carousel-caption span{
+    color:  var(--bs-orange);
+}
+.carousel-inner .carousel-caption h2{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    width: 80%;
+    margin: 0px auto 10px auto ;
+}
+.carousel-inner .carousel-caption p{
+    font-size: 23px;
+    width: 80%;
+    margin: 0px auto 20px auto;
+}
+@media(max-width: 768px)
+{
+    .carousel-inner .carousel-caption h2{
+       font-size: 38px;
+    }
+}
+@media(max-width: 577px)
+{
+    .carousel-inner .carousel-caption h2{
+       font-size: 25px;
+    }
+    .carousel-inner .carousel-caption p{
+        font-size: 13px;
+    } 
+}
+
+
+.course .box{
+    padding: 10px 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#more 
+{
+    display: none;
+}
+.info h2{
+    margin: 2px 2px 2px 2px;
+}
+ h2{
+    text-align: center;
+    color:  var(--bs-orange);
+ }
+ h1{
+    color:  var(--bs-orange);;
+ }
+ /* #end{
+  margin-left: 330px;
+ } */
+  </style>
+</head>
+
+<body>
+
+  <!-- Footer -->
+  <header class="text-center header-social-icon text-lg-start bg-primary text-white">
+    <!-- Section: Social media -->
+    <div class="container">
+      <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-lg-block">
+          <span class="mx-2"><i class="fa fa-phone mx-1"></i>+8630885960</span>
+          <span><i class="fa fa-calendar mx-1"></i> Sun-Mon:9:00-06:00</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <!-- <div>
+          <a href="" class="me-4">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-github"></i>
+          </a>
+        </div> -->
+        <!-- Right -->
+      </section>
+    </div>
+    <!-- Section: Social media -->
+
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand fw-bold " href="#" id="gufran">Saraswati Coaching Institute</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 mb-lg-0 text-start  flex-grow-1 justify-content-end">
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="#about2">About</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="#trendingbatches">Courses</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="#Faculties">Faculties</a>
+          </li>
+          <!-- <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="#Gallery">Gallery</a>
+          </li> -->
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="#ContactUs">Contant Us</a>
+          </li>
+        </ul>
+       </div>
+    </div>
+  </nav>
+  <!--hjguc-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="h-100 w-100" src="training-of.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-block">
+          <h2><span>Saraswati</span> Coaching Center Purkaji</h2>
+          <p>Unlock Your Potential in Maths and Science with Saraswati Coaching Institute.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="About">
+    <div class="about mt-2 mb-5">
+      <div class="container" id="about2">
+        <h2 class="h2-responsive  fw-bold text-center my-2 mb-5  mt-5" >
+          About
+        </h2>
+        <p class="text-center w-responsive mx-auto mb-1">
+
+          सरस्वती कोचिंग सेंटर में आपका स्वागत है! हम उन छात्रों को शीर्ष शिक्षा प्रदान करने के लिए समर्पित हैं जो इन
+          विषयों में उत्कृष्ट प्रदर्शन करना चाहते हैं। हमारे अनुभवी और जानकार शिक्षक छात्रों को उनकी पूरी क्षमता तक
+          पहुँचने में मदद करने के लिए भावुक हैं। हमारे केंद्र में, हम समझते हैं कि गणित और विज्ञान कुछ छात्रों के लिए
+          चुनौतीपूर्ण विषय हो सकते हैं। इसलिए हम व्यक्तिगत और इंटरैक्टिव कोचिंग प्रदान करते हैं जो प्रत्येक छात्र की
+          अनूठी जरूरतों और सीखने की शैली को पूरा करता है। हमारे पाठ्यक्रम को इन विषयों में एक ठोस आधार बनाने और छात्रों
+          को उनके अकादमिक और पेशेवर करियर में सफल होने के लिए आवश्यक उपकरण प्रदान करने के लिए डिज़ाइन किया गया है। हमारा
+          लक्ष्य छात्रों को न केवल अकादमिक सफलता प्राप्त करने में मदद करना है बल्कि गणित और विज्ञान के प्रति प्रेम
+          विकसित करना भी है। हमारा मानना ​​है कि ये विषय एक सर्वांगीण शिक्षा के निर्माण और तेजी से बदलती दुनिया के लिए
+          छात्रों को तैयार करने के लिए आवश्यक हैं। यही कारण है कि हमारी कोचिंग आकर्षक, इंटरैक्टिव और मजेदार होने के लिए
+          डिज़ाइन की गई है। हम सभी छात्रों के लिए एक सहायक और समावेशी शिक्षण वातावरण प्रदान करने के लिए प्रतिबद्ध हैं।
+          हमारे शिक्षकों को छात्रों को उनके सामने आने वाली किसी भी कठिनाई को दूर करने में मदद करने और उन्हें सफल होने के
+          लिए आवश्यक मार्गदर्शन और प्रोत्साहन प्रदान करने के लिए प्रशिक्षित किया जाता है। सरस्वती कोचिंग सेंटर में,
+          छात्र उच्च गुणवत्ता वाली शिक्षा, विशेषज्ञ मार्गदर्शन और एक सहायक और उत्साहजनक सीखने के माहौल की उम्मीद कर सकते
+          हैं। हम आपके शैक्षणिक और व्यक्तिगत लक्ष्यों को प्राप्त करने में आपकी सहायता करने के लिए तत्पर हैं!
+        </p>
+        <div class="row pt-5 ">
+          <h2 class="h2-responsive  fw-bold text-center my-2 mb-5  mt-5">Classroom</h2>
+          <div class="col-md-6 align-items-stretch">
+            <img class="img-fluid" src="net-coaching.jpg" alt="">
+          </div>
+          <div class="col-md-6"> 
+            <h2 class=" h2-responsive fw-bold text-start section-heading mt-2"></h2>
+            <p class="lh-base">
+              सरस्वती कोचिंग सेंटर में, हम मानते हैं कि सीखने के अनुभव में कक्षा का वातावरण महत्वपूर्ण भूमिका निभाता है।
+              इसलिए हमने छात्रों को सीखने का सर्वोत्तम संभव अनुभव प्रदान करने के लिए अपनी सुविधाओं को डिज़ाइन किया है।
+
+              हमारी कक्षाएँ विशाल, अच्छी तरह से प्रकाशित और अत्याधुनिक तकनीक से सुसज्जित हैं। पाठों को आकर्षक और
+              संवादात्मक बनाने के लिए हम इंटरैक्टिव व्हाइटबोर्ड और डिजिटल एड्स का उपयोग करते हैं। यह तकनीक हमारे
+              शिक्षकों को जटिल अवधारणाओं को जीवन में लाने और छात्रों को गणित और विज्ञान की गहरी समझ प्रदान करने में मदद
+              करती है।
+
+              हमारी तकनीक के अलावा, हम छात्रों को सफल होने के लिए आवश्यक सभी संसाधन भी प्रदान करते हैं। </p>
+
+
+            <p class="lh-base"><span id="dots">...</span><span id="more">हमारी कक्षाएँ आरामदायक बैठने, व्यक्तिगत डेस्क
+                और पर्याप्त लेखन स्थान से सुसज्जित हैं। यह सेटअप छात्रों को बिना किसी विकर्षण के पाठ पर ध्यान केंद्रित
+                करने की अनुमति देता है।
+
+                हम समझते हैं कि छात्र हमारे केंद्र में सीखने की कई शैलियों के साथ आते हैं, और हम उन सभी को समायोजित करने
+                का प्रयास करते हैं। हमारी कक्षाओं को लचीला और अनुकूल बनाने के लिए डिज़ाइन किया गया है, जिससे हमारे
+                शिक्षक आवश्यकतानुसार व्यक्तिगत से सामूहिक गतिविधियों में स्विच कर सकते हैं। यह दृष्टिकोण हमें प्रत्येक
+                छात्र की अनूठी जरूरतों और सीखने की शैली को पूरा करने में मदद करता है।
+
+                सरस्वती कोचिंग सेंटर में, हम मानते हैं कि कक्षा का वातावरण सीखने के अनुभव का एक अभिन्न अंग है। यही कारण
+                है कि हमने अपनी सुविधाओं को छात्रों को एक आरामदायक, सहायक और प्रेरक शिक्षण वातावरण प्रदान करने के लिए
+                डिज़ाइन किया है</p></span>
+
+
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <main id="course" class="course">
+    <div class="container" id="Courses">
+      <h2 class="h2-responsive  fw-bold text-center my-2 mb-5  mt-5">
+        Mastering Maths, Science, and English: Our Comprehensive Curriculum
+      </h2>
+      <p class="text-center w-responsive mx-auto mb-1">
+        सरस्वती कोचिंग सेंटर में, हम 9वीं से 12वीं कक्षा के छात्रों के लिए एक व्यापक शैक्षिक कार्यक्रम प्रदान करते हैं।
+        हमारे कार्यक्रम में गणित, विज्ञान और अंग्रेजी शामिल हैं, मुख्य विषय जो एक पूर्ण शिक्षा की नींव बनाते हैं। हमारे
+        गणित कार्यक्रम को छात्रों को बीजगणित, ज्यामिति, त्रिकोणमिति और कलन में एक मजबूत नींव विकसित करने में मदद करने के
+        लिए डिज़ाइन किया गया है। हमारे अनुभवी और जानकार शिक्षक चुनौतीपूर्ण अवधारणाओं के माध्यम से छात्रों का मार्गदर्शन
+        करेंगे, उन्हें अपने अकादमिक और पेशेवर करियर में सफल होने के लिए आवश्यक उपकरण प्रदान करेंगे। हमारे विज्ञान
+        कार्यक्रम में जीव विज्ञान, रसायन विज्ञान और भौतिकी शामिल हैं, और छात्रों को प्राकृतिक दुनिया की व्यापक समझ
+        प्रदान करने के लिए डिज़ाइन किया गया है। हमारे शिक्षक विज्ञान को जीवन में लाने और छात्रों को इन विषयों के लिए
+        गहरी प्रशंसा विकसित करने में मदद करने के लिए व्यावहारिक गतिविधियों और वास्तविक दुनिया के उदाहरणों का उपयोग करते
+        हैं। हमारा अंग्रेजी कार्यक्रम छात्रों को उनकी भाषा कौशल विकसित करने और उन्हें अकादमिक और व्यावसायिक सफलता के लिए
+        तैयार करने में मदद करने के लिए डिज़ाइन किया गया है। हमारे शिक्षक छात्रों को उनके पढ़ने, लिखने और बोलने के कौशल
+        में सुधार करने में मदद करेंगे, उन्हें वे उपकरण प्रदान करेंगे जिनकी उन्हें व्यक्तिगत और व्यावसायिक दोनों
+        स्थितियों में प्रभावी ढंग से संवाद करने की आवश्यकता है। सरस्वती कोचिंग सेंटर में, हमारा मानना ​​है कि शिक्षा सभी
+        छात्रों के लिए सुलभ होनी चाहिए, चाहे उनकी पृष्ठभूमि या शैक्षणिक क्षमता कुछ भी हो। यही कारण है कि हम ग्रेड 9वीं
+        से 12वीं के छात्रों के लिए अपने कार्यक्रम की पेशकश करते हैं, उन्हें सफल होने के लिए आवश्यक समर्थन और मार्गदर्शन
+        प्रदान करते हैं। चाहे आप अपने ग्रेड में सुधार करने के लिए देख रहे छात्र हों, या माता-पिता अपने बच्चे के लिए
+        गुणवत्तापूर्ण शिक्षा की तलाश में हों, हम यहां मदद के लिए हैं।</p>
+      <div class="container-5">
+        <main class="mt-5">
+          <div class="container" id="Faculties">
+            <h2 class="h2-responsive  fw-bold text-center my-2 mb-5 mt-5">
+              Faculties
+            </h2>
+          </div>
+          <div class="container-fluid mt-3 bg-light">
+          <div class="row pt-5">
+            <div class="col-md-4 align-items-stretch" >
+              <div class="card mx-auto mb-5 " style="width:200px" id="ok" >
+              <img class="card-img-top" src="IMG-20230214-WA0000.jpg" alt="Card image" style="width:100%">
+             
+          </div>
+        </div>
+        <div class="col-md-8 ">
+          <h2 class=" h2-responsive fw-bold text-start section-heading">Dheeraj Kumar Garg <br>MSC,B.ED</h2>
+          <p class="lh-base">धीरज कुमार गर्ग एक उच्च योग्य और अनुभवी शिक्षक हैं, जिन्होंने अपनी एमएससी और बीएड डिग्री पूरी की है। कक्षा 10वीं और 12वीं के छात्रों को गणित और विज्ञान में पढ़ाने के 27 वर्षों के अनुभव के साथ, उनके पास विषयों की गहरी समझ है और अपने छात्रों के साथ साझा करने के लिए ज्ञान का खजाना है। धीरज सर के शिक्षण के जुनून और अपने छात्रों के प्रति समर्पण ने उन्हें एक सम्मानित और प्रभावी शिक्षक के रूप में प्रतिष्ठा दिलाई है। उनकी नवीन शिक्षण विधियों ने कई छात्रों को अकादमिक सफलता प्राप्त करने और उनकी पूरी क्षमता तक पहुँचने में मदद की है।
+
+     
+          </div>
+            </div>
+        </div>
+            <h1 id = "trendingbatches" class="h2-responsive  fw-bold text-center my-2 mb-5  mt-5">Trending Batches</h1>
+             <div class="row mt-5">
+            <div class="col-md-3">
+              <div class="card box">
+                <img src="Math.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maths Classes for Class 10th</h5>
+                  <p class="card-text">Fee - 600 per month</p>
+                  <a href="index1.html" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card box">
+                <img src="Science.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Science Classes for Class 10th</h5>
+                  <p class="card-text">Fee - 600 per month</p>
+                  <a href="index1.html" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card box">
+                <img src="Math.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maths Classes for Class 12th</h5>
+                  <p class="card-text">Fee - 600 per month</p>
+                  <a href="index1.html" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card box">
+                <img src="Science.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Science Classes for Class 12th</h5>
+                  <p class="card-text">Fee - 600 per month</p>
+                  <a href="index1.html" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+          </div>
+          <!-- <main class="mt-5">
+            <div class="container" id="Gallery">
+              <h2 class="h2-responsive  fw-bold text-center my-2">
+                Gallery
+              </h2>
+               <p class="text-center w-responsive mx-auto mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laudantium saepe sit ex consequuntur assumenda.</p> -->
+<!-- 
+            </div>
+          </main> --> 
+
+          <!-- Gallery -->
+          <!-- <div class="row pt-5">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+        class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape" />
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" class="w-100 shadow-1-strong rounded mb-4"
+        alt="Mountains in the Clouds" />
+
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+        class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+        class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" class="w-100 shadow-1-strong rounded mb-4"
+        alt="Yosemite National Park" />
+    </div>
+  </div> -->
+          <!-- Gallery -->
+
+          <main class="my-2 mt-5 mb-5">
+            <div class="container" id="ContactUs">
+              <h2 class="h2-responsive  fw-bold text-center my-2">
+                Contact Us
+              </h2>
+              <p class="text-center w-responsive mx-auto mb-1 mt-5">हमारी कोचिंग सेवाओं पर विचार करने के लिए धन्यवाद! हम अपने छात्रों को उनके लक्ष्यों को हासिल करने और उनकी पूरी क्षमता तक पहुंचने में मदद करने के बारे में भावुक हैं। यदि आप हमारे कार्यक्रमों के बारे में अधिक जानने में रुचि रखते हैं या कोई प्रश्न पूछना चाहते हैं, तो कृपया हमसे संपर्क करने में संकोच न करें। अनुभवी प्रशिक्षकों की हमारी टीम यहां आपकी सहायता करने के लिए है और आपको सफल होने के लिए आवश्यक मार्गदर्शन और सहायता प्रदान करती है। हमसे संपर्क करने के लिए हमें कॉल करें। हम आपके उत्तर की प्रतीक्षा में हैं!</p>
+              <!--Section: Contact v.2-->
+                        </main>
+
+          <!-- Footer -->
+          <footer class="text-center text-lg-start bg-primary text-white pt-4">
+            <!-- Section: Social media -->
+
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">Saraswati Coaching Institute
+                    </h6>
+                    <p>
+                      अपने लक्ष्यों को प्राप्त करने में सहायता के लिए विशेषज्ञ कोचिंग और व्यक्तिगत सहायता के लिए हमसे संपर्क करें।
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <!-- <div class="col-lg-2 col-xl-2 mx-auto mb-4"> -->
+                    <!-- Links -->
+                    <!-- <h6 class="text-uppercase fw-bold mb-4">
+                      Products
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset">Home</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">About</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Course</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Contact Us</a>
+                    </p> -->
+                  <!-- </div> -->
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Useful links
+                    </h6>
+                    <p>
+                      <a href="index1.html" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                      <a href="#Home" class="text-reset">Home</a>
+                    </p>
+                    <p>
+                      <a href="#About" class="text-reset">About Us</a>
+                    </p>
+                    <p>
+                      <a href="#Courses" class="text-reset">Courses</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p><i class="fa fa-home me-3"></i> Saraswati Coaching Institute near Gupta Chat Purkaji, Muzaffarnagar - 251327</p>
+                    <!-- <p>
+                      <i class="fa fa-envelope me-3"></i>
+                      info@example.com
+                    </p> -->
+                    <p><i class="fa fa-phone me-3"></i> + 8630885960</p>
+                    <!-- <p><i class="fa fa-print me-3"></i> + 8630885960</p> -->
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+              </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+              Tech Yatra - Contact us at - 9870880486 if you want your website.
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+          <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+              }
+            }
+          </script>
+</body>
+
+</html>
